@@ -6,7 +6,10 @@
     --grey: #637381;
     --light-grey: #D4D2E3;
     --white-input: #F9F9FF;
-
+    --cream: #EAE1D6;
+    --orange: #DF5836;
+    --yellow: #F7DD7C;
+    --turquesa: #3AC2EF;
     --text-xs: 12px;
     --text-sm: 16px;
     --text-md: 20px;
@@ -15,7 +18,12 @@
     --text-2xl: 64px;
 
 }
-
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Rowdies';
+}
+p{
+    font-family: 'IBM Plex Mono';
+}
 .text--xs {
     font-size: var(--text-xs);
 }
@@ -52,8 +60,8 @@
     color: var(--grey);
 }
 
-.text--dark-blue {
-    color: var(--dark-blue);
+.text--orange {
+    color: var(--orange);
 }
 
 .a--white {
@@ -89,8 +97,8 @@
     transition: color 0.3s ease-in-out;
 }
 
-.bg--darkBlue {
-    background-color: var(--dark-blue);
+.bg--orange {
+    background-color: var(--orange);
 }
 
 .bg--mediumBlue {
@@ -104,6 +112,23 @@
 .bg--white-input {
     background-color: var(--white-input);
 }
+
+.bg--cream {
+    background-color: var(--cream);
+}
+
+.bg--orange {
+    background-color: var(--orange);
+}
+
+.bg--turquesa {
+    background-color: var(--turquesa);
+}
+
+.bg--yellow {
+    background-color: var(--yellow);
+}
+
 .btn {
     border-radius: 10px;
     padding: 2% 5%;
@@ -126,14 +151,20 @@
 }
 
 
-.btn--darkBlue {
-    background-color: var(--dark-blue) !important;
+.btn--orange {
+    background-color: var(--orange) !important;
     color: white !important;
     transition: background-color 0.6s ease-in-out;
+    border-radius: 0 !important;
+    box-shadow: 
+        -0px 4px 4px #fff, /* Borde inferior izquierdo */
+         4px 4px 0 #fff; /* Borde inferior derecho */    
+
 }
 
-.btn--darkBlue:hover {
-    background-color: var(--light-blue) !important;
+.btn--orange:hover {
+    background-color: var(--yellow) !important;
+    color: black !important;
     transition: background-color 0.3s ease-in-out;
 }
 
@@ -153,7 +184,6 @@
 .grid--4cols {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    gap: 12px;
 }
 
 .grid--5cols {

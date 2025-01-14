@@ -33,6 +33,47 @@ html {
     transition: transform 0.6s ease-in-out;
 }
 
+
+.random_4_stars {
+    background-image: 
+        url('../img/star.png'), 
+        url('../img/star.png'), 
+        url('../img/star.png'), 
+        url('../img/star.png');
+    background-repeat: no-repeat, no-repeat, no-repeat, no-repeat;
+    background-size: 50px 50px, 50px 50px, 50px 50px, 50px 50px;
+    background-position: 5% 10%, 90% 5%, 15% 95%, 95% 75%; /* Esquinas */
+}
+.random_2_stars {
+    background-image: 
+        url('../img/star.png'), 
+        url('../img/star.png');
+    background-repeat: no-repeat, no-repeat;
+    background-size: 50px 50px, 50px 50px;
+    background-position: 5% 10%, 95% 75%; /* Esquinas */
+}
+
+.random_star {
+    background-image: url('../img/star.png');
+    background-repeat: no-repeat;
+    background-size: 50px 50px;
+    background-position: 5% 10%, 95% 75%;
+}
+.star__b_r{
+    background-position: 90% 75%;
+}
+
+.star__t_r{
+    background-position: 95% 15%;
+}
+
+
+@keyframes randomize {
+    0% {
+        background-position: 25%23!
+
+    }
+}
 @keyframes appear {
     0% {
         opacity: 0;
