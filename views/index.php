@@ -29,8 +29,8 @@
         </div>
     </section>
     <?php include 'components/menu.php'; ?>
-    
-    <section class="mw--1440 py-5 grid--4cols">
+
+    <section class="mw--1440 grid--4cols">
         <img src="<?php echo __ROOT__; ?>/public/img/home/fotos1.png" alt="foto" class="border border-dark h--320 w-100">
         <img src="<?php echo __ROOT__; ?>/public/img/home/fotos2.png" alt="foto" class="border border-dark h--320 w-100">
         <img src="<?php echo __ROOT__; ?>/public/img/home/fotos3.png" alt="foto" class="border border-dark h--320 w-100">
@@ -44,6 +44,9 @@
         <img src="<?php echo __ROOT__; ?>/public/img/home/fotos11.png" alt="foto" class="border border-dark h--320 w-100">
         <img src="<?php echo __ROOT__; ?>/public/img/home/fotos12.png" alt="foto" class="border border-dark h--320 w-100">
     </section>
+
+    <?php include 'components/contacto.php'; ?>
+    <?php include 'components/banner.php'; ?>    
 
 </main>
 <?php include 'partials/footer.php'; ?>

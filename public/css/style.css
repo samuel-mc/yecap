@@ -53,6 +53,15 @@ html {
     background-position: 5% 10%, 95% 75%; /* Esquinas */
 }
 
+.random_2_stars_contacto {
+    background-image: 
+        url('../img/star.png'), 
+        url('../img/star.png');
+    background-repeat: no-repeat, no-repeat;
+    background-size: 50px 50px, 50px 50px;
+    background-position: 5% 5%, 95% 95%; /* Esquinas */
+}
+
 .random_star {
     background-image: url('../img/star.png');
     background-repeat: no-repeat;

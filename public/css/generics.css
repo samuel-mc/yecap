@@ -109,8 +109,8 @@ p{
     background-color: var(--light-blue);
 }
 
-.bg--white-input {
-    background-color: var(--white-input);
+.bg--transparent-input {
+    background-color: transparent !important;
 }
 
 .bg--cream {
@@ -121,9 +121,14 @@ p{
     background-color: var(--orange);
 }
 
+.bg--orange-gradiente {
+    background: linear-gradient(180deg, #E7831F 0%, #DF4037 50%, #B82227 100%);
+}
+
 .bg--turquesa {
     background-color: var(--turquesa);
 }
+
 
 .bg--yellow {
     background-color: var(--yellow);
@@ -176,7 +181,6 @@ p{
 .grid--3cols {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 24px;
     margin-top: 12px;
 }
 
@@ -194,6 +198,10 @@ p{
 
 .grid{
     display: grid;
+}
+
+.gap--12{
+    gap: 12px !important;
 }
 
 .gap--24 {
@@ -240,6 +248,14 @@ p{
     height: 320px;
 }
 
+.h--fixed {
+    min-height: 800px;
+    max-height: 800px;
+}
+.h--contacto{
+    min-height: 600px;
+    max-height: 600px;
+}
 .h--fit {
     height: fit-content;
 }
@@ -287,6 +303,16 @@ p{
     border-radius: 10px;
 }
 
+
+.d-lg-flex {
+    display: none;
+}
+
+@media (min-width: 992px) {
+    .d-lg-flex {
+        display: flex !important;
+    }
+}
 
 
 @media (max-width: 1400px) {
