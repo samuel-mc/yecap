@@ -1,8 +1,8 @@
 <?php include 'partials/header.php'; ?>
 <?php include 'partials/navbar.php'; ?>
 <main>
-    <section class="mw--1440 bg--turquesa d-flex flex-column flex-md-row border border-dark">
-        <div class="text-white w-50 px-5 random_2_stars d-flex flex-column justify-content-center">
+    <section class="mw--1440 mx-auto bg--turquesa d-flex flex-column flex-md-row m-0 border border-dark">
+        <div class="text-white w--50 px-5 random_2_stars d-flex flex-column justify-content-center">
             <h2 class="text--2xl">El verdadero sabor mexicano</h2>
             <p class="text--md">Recordándolo siempre como lo que es… una FONDA pero con la calidad y calidez que nos caracteriza en Grupo Orraca.</p>
             <div>
@@ -14,11 +14,11 @@
         </div>
     </section>
 
-    <section class="mw--1440 bg--yellow d-flex flex-column flex-md-row border border-dark">
-        <div class="border border-dark w-50">
+    <section class="mw--1440 mx-auto bg--yellow d-flex flex-column flex-md-row m-0 border border-dark">
+        <div class="border border-dark w--50">
             <img src="<?php echo __ROOT__; ?>/public/img/home/quienes.png" alt="quienes somos" class="img-fluid h-100">
         </div>
-        <div class="w-50 px-5 random_star star__t_r d-flex flex-column justify-content-center">
+        <div class="w--50 px-5 random_star star__t_r d-flex flex-column justify-content-center">
             <h2 class="text--2xl">¿Quienes  <br>somos?</h2>
             <p class="text--md">
                 Fonda Yecapixtla es un rincón 100% mexicano y la parada perfecta para remontarnos al México tradicional, con sus mercados, sus colores, su folklor, su gente y sus sabores.

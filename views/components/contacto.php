@@ -1,5 +1,5 @@
 <section class="mw--1440">
-    <div class="row d-flex flex-column flex-lg-row">
+    <div class="row m-0 d-flex flex-column flex-lg-row">
         <div class="col-12 col-lg-4 d-flex flex-column gap--12 random_2_stars_contacto p-5 justify-content-center">
             <h2 class="text--2xl py-2">¡Ponte en <br>contacto!</h2>
             <div class="w-100">

@@ -14,6 +14,7 @@ $title = isset($title) ? $title : 'Tanko';
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="<?php echo __ROOT__; ?>/public/js/splide/dist/css/splide.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Rowdies:wght@400;700&family=IBM+Plex+Mono:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/png" href="<?php echo __ROOT__; ?>/public/img/logo.png" />
     <title><?php echo $title ?></title>
     <!-- Import Bootstrap -->
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
